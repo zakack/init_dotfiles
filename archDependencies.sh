@@ -38,6 +38,7 @@ yay -S --noconfirm --needed \
 	fzf \
 	fd \
 	maim \
+	bat \
 	dust \
 	eza \
 	zoxide \
