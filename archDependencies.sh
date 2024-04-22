@@ -90,6 +90,7 @@ echo '#######################'
 echo 'installing additional applications'
 echo '#######################'
 yay -S --noconfirm --needed \
+	starship \
 	spicetify-cli \
 	vivaldi \
 	vivaldi-ffmpeg-codecs \
