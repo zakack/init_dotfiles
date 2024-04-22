@@ -1,0 +1,84 @@
+# Zak Kessler's Alacritty Configuration
+# 22-April-2024
+
+live_config_reload = true
+
+[bell]
+animation = "EaseOutExpo"
+color = "0x000000"
+duration = 0
+
+[cursor]
+style = "Block"
+unfocused_hollow = true
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 12.0
+[font.normal]
+family = "Iosevka"
+style = "Regular"
+[font.bold]
+family = "Iosevka"
+style = "Bold"
+[font.italic]
+family = "Iosevka"
+style = "Italic"
+[font.glyph_offset]
+x = 0
+y = 0
+[font.offset]
+x = 0
+y = 0
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "V"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "C"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Equals"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "DecreaseFontSize"
+key = "Minus"
+mods = "Control"
+
+[mouse]
+hide_when_typing = true
+
+[[mouse.bindings]]
+action = "PasteSelection"
+mouse = "Middle"
+
+[scrolling]
+history = 10000
+
+[selection]
+save_to_clipboard = true
+
+[shell]
+program = "/usr/bin/fish"
+
+[window]
+decorations = "full"
+dynamic_padding = false
+dynamic_title = true
+startup_mode = "Windowed"
+
+[window.dimensions]
+columns = 120
+lines = 44
+
+[window.padding]
+x = 2
+y = 2
