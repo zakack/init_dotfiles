@@ -21,7 +21,7 @@ echo '#######################'
 yay -S --noconfirm --needed \
 	fish \
 	alacritty \
-	pulseaudio-alsa \
+	pipewire-alsa \
 	octopi \
 	picom \
 	rofi \
@@ -34,9 +34,7 @@ yay -S --noconfirm --needed \
 	fzf \
 	the_silver_searcher \
 	fd \
-	universal-ctags-git \
 	maim \
-	pulseaudio-ctl \
 	dust \
 	eza \
 	zoxide \
