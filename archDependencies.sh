@@ -58,7 +58,6 @@ yay -S --noconfirm --needed \
 	htop \
 	btop \
 	libinput libinput-gestures \
-	betterlockscreen \
 	yarn \
 	docker \
 	weechat \
