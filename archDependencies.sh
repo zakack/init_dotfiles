@@ -3,16 +3,20 @@
 ## update database
 pacman -Syy
 
-## install yay
+## install yay if necessary
 echo '#######################'
 echo 'installing yay'
 echo '#######################'
-git clone https://aur.archlinux.org/yay.git
-if [ -d "$(pwd)/yay" ]; then
-	cd yay
-	makepkg -si
-	cd ..
-	rm -rf yay
+if [ ! -x /usr/bin/yay ]; then
+	git clone https://aur.archlinux.org/yay.git
+	if [ -d "$(pwd)/yay" ]; then
+		cd yay
+		makepkg -si
+		cd ..
+		rm -rf yay
+	fi
+else
+	echo 'nevermind, yay already installed...'
 fi
 
 echo '#######################'
@@ -29,10 +33,9 @@ yay -S --noconfirm --needed \
 	python-pywal \
 	polybar \
 	vim \
-	neovim-nightly \
+	neovim \
 	neovim-lspconfig \
 	fzf \
-	the_silver_searcher \
 	fd \
 	maim \
 	dust \
@@ -42,8 +45,6 @@ yay -S --noconfirm --needed \
 	tmux \
 	unrar \
 	p7zip \
-	udisks2 \
-	inotify-tools \
 	cronie \
 	rclone
 
