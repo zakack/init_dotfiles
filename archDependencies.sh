@@ -53,14 +53,14 @@ echo '#######################'
 echo 'installing development and util applications'
 echo '#######################'
 yay -S --noconfirm --needed \
+	nodejs \
+	npm \
+	python-pip \
+	python-virtualenv \
 	spotify \
 	neofetch \
-	htop \
 	btop \
-	libinput libinput-gestures \
-	yarn \
 	docker \
-	weechat \
 	ranger \
 	github-cli
 
@@ -68,8 +68,7 @@ echo '#######################'
 echo 'installing fonts'
 echo '#######################'
 yay -S --noconfirm --needed \
-	ttf-symbola \
-	ttc-iosevka \
+	ttf-iosevka \
 	ttf-fira-code \
 	ttf-firacode-nerd \
 	ttf-jetbrains-mono \
