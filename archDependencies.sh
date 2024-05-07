@@ -93,6 +93,7 @@ echo '#######################'
 yay -S --noconfirm --needed \
 	starship \
 	spicetify-cli \
+	gimp \
 	vivaldi \
 	vivaldi-ffmpeg-codecs \
 	firefox-developer-edition \
