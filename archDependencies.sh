@@ -92,6 +92,7 @@ echo 'installing additional applications'
 echo '#######################'
 yay -S --noconfirm --needed \
 	starship \
+	xclip \
 	spicetify-cli \
 	gimp \
 	vivaldi \
