@@ -35,6 +35,7 @@ yay -S --noconfirm --needed \
 	vim \
 	neovim \
 	neovim-lspconfig \
+	dfc \
 	fzf \
 	fd \
 	maim \
