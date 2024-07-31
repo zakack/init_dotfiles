@@ -25,6 +25,7 @@ echo '#######################'
 yay -S --noconfirm --needed \
   fish \
   alacritty \
+  arandr \
   pipewire-alsa \
   octopi \
   picom \
